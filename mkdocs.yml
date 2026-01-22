@@ -1,5 +1,6 @@
 site_name: PolymorphicAgent's Documentation
 site_description: Documentation for my projects
+site_url: https://docs.polimorph.dev
 
 theme:
   name: material
