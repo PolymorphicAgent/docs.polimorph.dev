@@ -1,0 +1,5 @@
+/* Currently unused: makes the footer slightly opaque so it doesn't cover the animated background */
+
+.md-footer {
+    opacity: 50%;
+}
