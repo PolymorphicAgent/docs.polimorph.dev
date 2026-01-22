@@ -12,8 +12,10 @@
     ???- tip "<a href="../server/nextcloud/" class="custom-link">Nextcloud</a>"
         - Document the current setup + diagrams
     ???- tip "<a href="../server/oracle/" class="custom-link">Oracle Instances</a>"
-        - Document the current setup + diagrams
-    - _If I Think of anything else, it will be added here before I write it up._
+        - Document the current functions + diagrams
+        - Document the process for adding a site
+        - Document any other processes running on the instances
+    - _If I think of anything else, it will be added here before I write it up._
 
 ???+ example "[Projects](projects/index.md)"
     ???- tip "<a href="../projects/alarm-clock/" class="custom-link">Alarm Clock</a>"
@@ -21,6 +23,7 @@
     - Document USBSoundboard (completed project)
     - Document DEEJ mixer (completed project)
     - Document bt receiver idea (project not started yet)
+    - Class spreadsheet stuff (in progress)
     - _There are more projects. I need to go through my Documents folder for more software projects, and my basement desk for hardware projects. As above, each project be listed here before I write up a page for it._
 
 ---
