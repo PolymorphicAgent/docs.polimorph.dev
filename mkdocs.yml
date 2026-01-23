@@ -3,6 +3,8 @@ site_description: Documentation for my projects
 site_url: https://docs.polimorph.dev
 
 theme:
+  logo: assets/favicon.png
+  favicon: assets/favicon.ico
   name: material
   palette:
     # Light mode
