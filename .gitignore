@@ -11,3 +11,6 @@ venv/
 .vscode/
 .idea/
 *.swp
+
+# Template
+template.md
