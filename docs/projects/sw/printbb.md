@@ -263,9 +263,9 @@ Embedded images are automatically extracted:
 | Firefox | :material-close-circle:{ .error } Not supported (Manifest V3) |
 | Safari | :material-close-circle:{ .error } Not supported |
 
-### Version History
+### Changelog
 
-#### v1.0.0
+#### v1.0.0 - [**FEB 3, 2026**]
 
 - [x] Initial release
 - [x] Blackboard Ultra support
