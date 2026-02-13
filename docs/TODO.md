@@ -27,7 +27,8 @@
     - Document DEEJ mixer (completed project)
     - Document bt receiver idea (project not started yet)
     - Class spreadsheet stuff (in progress)
-    - PrintBB (Print Blackboard)
+    - PrintBB (Print Blackboard) ✅
+    - Gaming Installer
     - _There are more projects. I need to go through my Documents folder for more software projects, and my basement desk for hardware projects. As above, each project be listed here before I write up a page for it._
 
 ---
