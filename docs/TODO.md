@@ -23,12 +23,12 @@
     - _Figure out how to add subsections (i.e., under projects, a section named "Software-only", expandable to a page for each project that falls into that category)_
     ???- tip "<a href="../projects/alarm-clock/" class="custom-link">Alarm Clock</a>"
         - Add wiring diagrams, code snippets, and images
-    - Document USBSoundboard (completed project)
     - Document DEEJ mixer (completed project)
     - Document bt receiver idea (project not started yet)
     - Class spreadsheet stuff (in progress)
-    - PrintBB (Print Blackboard) ✅
     - Gaming Installer
+    - Document USBSoundboard (completed project) ✅
+    - PrintBB (Print Blackboard) ✅
     - _There are more projects. I need to go through my Documents folder for more software projects, and my basement desk for hardware projects. As above, each project be listed here before I write up a page for it._
 
 ---
