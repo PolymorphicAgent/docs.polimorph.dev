@@ -63,8 +63,10 @@ nav:
     - Oracle Instances: server/oracle.md
   - Projects:
     - Overview: projects/index.md
-    - "Software Only":
+    - "Software Exclusive":
       - projects/sw/printbb.md
+    - "Hardware + Software":
+      - projects/hw/usbsoundboard.md
     - Alarm Clock: projects/alarm-clock.md
 
 # extra_javascript:
