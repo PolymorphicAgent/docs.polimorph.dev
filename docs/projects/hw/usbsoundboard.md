@@ -1,6 +1,9 @@
 !!! info "Disclaimer"
     _This is not a tutorial! Part of the fun is figuring out how to build it..._
 
+!!! note "TODO"
+    Add link to deej mixer project in [Related Projects](#related-projects) once that page is complete
+
 # :material-speaker: USB Soundboard
 
 ![Image](./usbsb-assets/up-close.jpg)
@@ -20,7 +23,7 @@ A custom soundboard that allows you to play any sound effect to both your headph
 | Feature&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Description |
     |--------|---------|
     | :material-gesture-tap-button:{ .lg .middle } **10 SFX Buttons** | Each button can be mapped to any audio file in the user app. Right-click or drag & drop to assign. |
-    |  :fontawesome-solid-paint-brush:{ .lg .middle } **Customizable Tiles** | Plexiglass tiles can be customized with erasable markers - so you can change your labels with your sounds. |
+    |  :octicons-paintbrush-16:{ .lg .middle } **Customizable Tiles** | Plexiglass tiles can be customized with erasable markers - so you can change your labels with your sounds. |
     | :material-toggle-switch:{ .lg .middle } **On / Off Switch** | A satisfying latching On/Off switch puts the device in sleep mode. |
     | :material-led-on:{ .lg .middle } **RGB Idle Animation** | A smooth rainbow wave cycles across all 10 LEDs when idle. The corresponding LED will flash when a sound is triggered. |
     | :material-cog:{ .lg .middle } **User App** | The lightweight user app allows sound mapping, selection audio outputs, and saving persistent profiles (allows your settings to persist across PC restarts). |
@@ -212,7 +215,7 @@ The device and PC communicate over USB serial at **9600 baud**.
 ### Steps
 1. **Connect** the soundboard device to your PC via USB-C
 2. **Flash the** [**firmware**](https://raw.githubusercontent.com/PolymorphicAgent/USBSoundboard/refs/heads/main/ArduinoFirmware/USBSoundboard.ino){ target="_blank" rel="noopener noreferrer" } to the Pro Micro if not already flashed
-3. **Install the app** — download and run the latest installer from [GitHub Releases](https://github.com/PolymorphicAgent/USBSoundboard/releases/latest){ target="_blank" rel="noopener noreferrer" }
+3. **Install the app** by downloading and running the latest installer from [GitHub Releases](https://github.com/PolymorphicAgent/USBSoundboard/releases/latest){ target="_blank" rel="noopener noreferrer" }
 
 !!! warning "Known Issues"
     The app has some stability issues and may crash unexpectedly. The installer also does *not* currently create a desktop shortcut. These are known issues that will be addressed in a future release if and only if someone actually uses this app other than myself...
@@ -271,7 +274,7 @@ Configuration is stored across two types of JSON files:
 ---
 
 ## Related Projects
-deej mixer
+//add deej mixer link here
 
 ---
 
