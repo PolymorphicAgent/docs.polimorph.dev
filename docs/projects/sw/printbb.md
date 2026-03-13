@@ -263,17 +263,22 @@ Embedded images are automatically extracted:
 | Firefox | :material-close-circle:{ .error } Not supported (Manifest V3) |
 | Safari | :material-close-circle:{ .error } Not supported |
 
+---
 ### Changelog
 
-#### v1.0.0 - [**FEB 3, 2026**]
+```changelog
+@repo https://github.com/PolymorphicAgent/PrintBB
 
-- [x] Initial release
-- [x] Blackboard Ultra support
-- [x] Fill-in-the-blank question extraction
-- [x] Image extraction
-- [x] Compact mode
-- [x] One question per page option
-- [x] Edit mode in preview
+## February 3, 2026
++ Initial release **v1.0.0**
++ Blackboard Ultra support
++ Fill-in-the-blank question extraction
++ Image extraction
++ Compact mode
++ One question per page option
++ Edit mode in preview
+
+```
 
 ---
 

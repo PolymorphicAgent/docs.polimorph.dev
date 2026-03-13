@@ -1,0 +1,113 @@
+/* -- Timeline Spine -- */
+.changelog-timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin-left: 0.5rem;
+}
+.changelog-timeline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+    bottom: 0;
+    width: 2px;
+    background: var(--md-default-fg-color--lightest);
+    border-radius: 1px;
+}
+
+/* -- Date Node -- */
+.changelog-date {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--md-primary-fg-color);
+}
+.changelog-date::before {
+    content: "";
+    position: absolute;
+    left: -2.35rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--md-primary-fg-color);
+    border: 2px solid var(--md-default-bg-color);
+    box-shadow: 0 0 0 2px var(--md-primary-fg-color);
+}
+.changelog-date:first-child {
+    margin-top: 0;
+}
+
+/* -- Commit Hash -- */
+.changelog-hash {
+    font-family: var(--md-code-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--md-default-fg-color--light);
+    margin-left: 0.5rem;
+}
+
+/* -- Entry Card -- */
+.changelog-entry {
+    position: relative;
+    background: var(--md-code-bg-color);
+    border-radius: 0.4rem;
+    padding: 0.75rem 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-left: 3px solid transparent;
+    transition: border-color 0.2s;
+}
+.changelog-entry:hover {
+    border-left-color: var(--md-primary-fg-color);
+}
+
+/* -- Change Type Badges -- */
+.changelog-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.1rem 0.5rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    vertical-align: middle;
+}
+.badge-added       { background: #2e7d3220; color: #2e7d32; border: 1px solid #2e7d3240; }
+.badge-changed     { background: #1565c020; color: #1565c0; border: 1px solid #1565c040; }
+.badge-fixed       { background: #e6533c20; color: #e6533c; border: 1px solid #e6533c40; }
+.badge-removed     { background: #78909c20; color: #78909c; border: 1px solid #78909c40; }
+.badge-deprecated  { background: #f9a82520; color: #f9a825; border: 1px solid #f9a82540; }
+.badge-latest      { background: #2e7d3218; color: #2e7d32; border: 1px solid #2e7d3250;
+                     font-size: 0.65rem;      font-weight: 550;  margin-left: 0.5rem;           }
+
+/* -- Hover -- */
+.badge-added:hover      { transition: 0.2s; box-shadow: 0 0 5px #2e7d32, 0 0 15px #295a2b; }
+.badge-changed:hover    { transition: 0.2s; box-shadow: 0 0 5px #1565c0, 0 0 15px #1A88C7; }
+.badge-fixed:hover      { transition: 0.2s; box-shadow: 0 0 5px #e6533c, 0 0 15px #EB7643; }
+.badge-removed:hover    { transition: 0.2s; box-shadow: 0 0 5px #78909c, 0 0 15px #7DB3A3; }
+.badge-deprecated:hover { transition: 0.2s; box-shadow: 0 0 5px #f9a825, 0 0 15px #FECB2C; }
+.badge-latest:hover     { transition: 0.2s; box-shadow: 0 0 5px #2e7d32, 0 0 15px #295a2b; }
+
+/* ── Dark Mode Overrides ── */
+[data-md-color-scheme="slate"] .badge-added      { background: #66bb6a18; color: #81c784; border-color: #66bb6a30; }
+[data-md-color-scheme="slate"] .badge-changed    { background: #42a5f518; color: #64b5f6; border-color: #42a5f530; }
+[data-md-color-scheme="slate"] .badge-fixed      { background: #ef535018; color: #ef9a9a; border-color: #ef535030; }
+[data-md-color-scheme="slate"] .badge-removed    { background: #90a4ae18; color: #b0bec5; border-color: #90a4ae30; }
+[data-md-color-scheme="slate"] .badge-deprecated { background: #ffee5818; color: #fff176; border-color: #ffee5830; }
+[data-md-color-scheme="slate"] .badge-latest     { background: #66bb6a18; color: #3fb950; border-color: #238636;   }
+
+/* ── Entry Description ── */
+.changelog-entry p {
+    margin: 0.3rem 0 0 0;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--md-default-fg-color--light);
+}
+.changelog-entry p:first-child {
+    margin-top: 0;
+}

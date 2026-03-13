@@ -35,6 +35,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: changelog        # ← add this
+          class: changelog
+          format: !!python/name:changelog_ext.changelog_formatter
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
@@ -54,6 +57,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - TODO: TODO.md
+  - Changelog: changelog.md
   - Server Infrastructure:
     - Overview: server/index.md
     - Hardware: server/hardware.md
@@ -65,9 +69,10 @@ nav:
     - Overview: projects/index.md
     - "Software Exclusive":
       - projects/sw/printbb.md
+      - projects/sw/phoneaudiolink.md
     - "Hardware + Software":
       - projects/hw/usbsoundboard.md
-    - Alarm Clock: projects/alarm-clock.md
+      - projects/hw/alarm-clock.md
 
 # extra_javascript:
 #   - javascript/void.js
@@ -77,3 +82,4 @@ nav:
 
 extra_css:
   - stylesheets/custom-link.css
+  - stylesheets/changelog.css

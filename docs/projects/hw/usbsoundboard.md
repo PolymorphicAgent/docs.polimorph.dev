@@ -1,10 +1,11 @@
+# :material-speaker: USB Soundboard
+
 !!! info "Disclaimer"
     _This is not a tutorial! Part of the fun is figuring out how to build it..._
 
 !!! note "TODO"
     Add link to deej mixer project in [Related Projects](#related-projects) once that page is complete
 
-# :material-speaker: USB Soundboard
 
 ![Image](./usbsb-assets/up-close.jpg)
 
@@ -278,7 +279,7 @@ Configuration is stored across two types of JSON files:
 
 ---
 
-## Changelog
+## Releases
 ### [:material-tag: v1.0.2](https://github.com/PolymorphicAgent/USBSoundboard/releases/tag/v1.0.2){target="_blank" rel="noopener noreferrer"} — Aug 26, 2025 { #v1.0.2 }
 
 :material-label: **Latest**
@@ -298,6 +299,45 @@ Configuration is stored across two types of JSON files:
 ### [:material-tag: v1.0.0](https://github.com/PolymorphicAgent/USBSoundboard/releases/tag/first) — Feb 24, 2025 { #v1.0.0 }
 
 - [x] Initial release :tada:
+
+---
+
+## Changelog
+
+
+```changelog
+@repo https://github.com/PolymorphicAgent/USBSoundboard
+
+## February 13, 2026 | e5d19585a81f80821d49b21e86b99aa6a8eb013f
+~ README updated with a link to the documentation site
+
+## August 26, 2025 | ae704d04aaa78fe7fabda8f96de46536634546dc
++ Screenshots and images added to the repository
+~ Installer updated with latest build artifacts
+~ README updated with current project information
+
+## August 25, 2025 | 42f34ca350e5465a87f91dcf5df77880313bc812
++ Info tooltip added to the output devices selector to clarify device usage
++ Retry button added to the disconnection dialog so users can reconnect without restarting
+
+## July 14, 2025 | 3b513a5b2e51bac466735e4dad25b3c32fb9c858
++ SHA-256 and SHA-1 checksums added to the installer
++ Installer finalized and packaged for distribution
++ Version control added to `config` files to support future migration handling
+* Incorrect `init.json` path resolved, was preventing startup failures
+* Ephemeral output device(s) bug fixed; devices that temporarily disappear (unplugged, etc.) no longer cause persistent errors
+
+## June 17, 2025 | af8a7f0220776471f5b721f63d0f60bcc158d4eb
++ Startup help text updated with clearer first-time setup
+~ README updated with revised project details
+- Build artifacts removed and added to `.gitignore` list
+
+## February 24, 2025 | 2d59bba5a7ddb1a11bb46e78a579383e29b41a88
++ Initial project files uploaded: firmware source, user app source
++ README created with project overview and setup instructions
+```
+
+---
 
 ## Contributing
 

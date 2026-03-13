@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "changelog-ext"
+version = "1.0.0"
+description = "Custom pymdownx.superfences formatter for changelog timelines"
+
+[tool.setuptools]
+py-modules = ["changelog_ext"]

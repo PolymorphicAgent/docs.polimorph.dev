@@ -15,7 +15,7 @@ Hardware & software projects.
     Document usbsoundboard, mixer, alarmclock, bt receiever
 
 ???+ tip "Hardware Projects"
-    - **[Alarm Clock](alarm-clock.md)** - ESP32-based alarm clock using salvaged LCD displays
+    - **[Alarm Clock](hw/alarm-clock.md)** - ESP32-based alarm clock compatible with blind monkeys like myself
     - **[USBSoundboard](hw/usbsoundboard.md)** - Cute little soundboard peripheral for trolling your friends in voice calls &nbsp;:smiling_imp:
 
 ---
