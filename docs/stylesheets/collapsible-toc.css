@@ -1,0 +1,10 @@
+.md-sidebar--secondary .md-nav__link > .md-nav__icon {
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 250ms ease;
+}
+
+.md-sidebar--secondary .md-nav__item:has(> .md-nav__link > .md-nav__icon) {
+  margin-bottom: 1.2em;
+}

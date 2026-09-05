@@ -15,7 +15,8 @@ Hardware & software projects.
     Document usbsoundboard, mixer, alarmclock, bt receiever
 
 ???+ tip "Hardware Projects"
-    - **[Alarm Clock](hw/alarm-clock.md)** - ESP32-based alarm clock compatible with blind monkeys like myself
+    - **[Citrus Racing RF Telemetry](hw/citrus/telemetry.md)** - LoRa + ESP32 radio telemetry system for SU's Formula SAE car
+    - **[Alarm Clock](hw/alarm-clock.md)** - ESP32-based alarm clock compatible with blind people like myself
     - **[USBSoundboard](hw/usbsoundboard.md)** - Cute little soundboard peripheral for trolling your friends in voice calls &nbsp;:smiling_imp:
 
 ---

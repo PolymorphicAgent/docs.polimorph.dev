@@ -2,6 +2,10 @@ site_name: PolymorphicAgent's Documentation
 site_description: Documentation for my projects
 site_url: https://docs.polimorph.dev
 
+# plugins:
+#   - search:
+#       enabled: false
+
 theme:
   logo: assets/favicon.png
   favicon: assets/favicon.ico
@@ -24,12 +28,18 @@ theme:
   features:
     - navigation.sections
     - navigation.expand
+    - navigation.path
     - search.highlight
     - content.code.copy
+    - toc.follow
 
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -53,6 +63,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.blocks.caption
 
 nav:
   - Home: index.md
@@ -71,11 +82,17 @@ nav:
       - projects/sw/printbb.md
       - projects/sw/phoneaudiolink.md
     - "Hardware + Software":
+      - "Citrus": 
+        - projects/hw/citrus/telemetry.md
+        - projects/hw/citrus/CAN.md
       - projects/hw/usbsoundboard.md
       - projects/hw/alarm-clock.md
 
 # extra_javascript:
 #   - javascript/void.js
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascript/collapsible-toc.js
 
 # extra_css:
 #   - stylesheets/footer.css
@@ -83,3 +100,4 @@ nav:
 extra_css:
   - stylesheets/custom-link.css
   - stylesheets/changelog.css
+  - stylesheets/collapsible-toc.css

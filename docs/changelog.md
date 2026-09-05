@@ -31,6 +31,13 @@ icon: material/history
 ```changelog
 @repo https://github.com/PolymorphicAgent/docs.polimorph.dev
 
+## September 5, 2026 | 000000000000000000000000000000000
++ Citrus Racing (FORMULA SAE) Page
++ Re-Formatted CAN writeup (April 2026)
++ LoRa telemetry full write-up (April 2026)
++ Collapsible table-of-contents extra JS
++ Enabled some features and extensions in mkdocs.md
+
 ## April 10, 2026 | 65de504c3c0c95359777963349b6bf4d49ff866d
 + This changelog page.
 + PhoneAudioLink documentation page full write-up.
