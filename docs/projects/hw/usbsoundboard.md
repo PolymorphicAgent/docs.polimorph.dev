@@ -333,8 +333,14 @@ Configuration is stored across two types of JSON files:
 - Build artifacts removed and added to `.gitignore` list
 
 ## February 24, 2025 | 2d59bba5a7ddb1a11bb46e78a579383e29b41a88
-+ Initial project files uploaded: firmware source, user app source
++ Project files uploaded: firmware source, user app source
 + README created with project overview and setup instructions
+
+## Undocumented, This time frame
++ Software design completed
+
+## January 20, 2025
++ Hardware build completed
 ```
 
 ---
